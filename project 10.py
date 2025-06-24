@@ -1,5 +1,5 @@
-print("NAME: Bizzukallu Viswanath Swamy")
-print("USN:1AY24AI021")
+print("NAME: Aneesh P")
+print("USN:1AY24AI008")
 print("SECTION:M")
 class Time:
     def __init__(self, hour=0, minute=0, second=0):
