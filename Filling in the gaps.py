@@ -1,5 +1,5 @@
-print("NAME: Bizzukallu Viswanath Swamy")
-print("USN:1AY24AI021")
+print("NAME: Aneesh P")
+print("USN:1AY24AI008")
 print("SECTION:M")
 import os
 import re
