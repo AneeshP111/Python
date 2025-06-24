@@ -2,23 +2,19 @@ print("NAME: Aneesh P")
 print("USN:1AY24AI008")
 print("SECTION:M")
 
-import re
-import os
-def search(folder,element):
-    try:
-        for file in os.listdir(folder):
-            if file.endswith(".txt"):
-                file=os.path.join(folder,file)
-                try:
-                    with open(file,"r") as f:
-                      for linenum, line in enumerate(f,1):
-                            print(f"File: {file},linne {linenum}: {line.strip()}")
-                except Exception as e:
-                    print(f"Error reading {file}:{e}")
-    except FileNotFoundError:
-        print("Folder not found")
-    except Exception as e:
-        print(f"an unexpected error {e}")
-folder=input("Enter any folder name:")
-element=input("enter any expression to search:")
-search(folder,element)
+import random
+guess = ''
+while guess not in ('heads'.'tails'):
+                    print("Guess the coin toss! Enter heads ot tails: ")
+                    guess = input()
+                    break
+toss = random.randint(0,1)
+if toss==guess:
+    print("You got it")
+else:
+    print("NOPE!!! Guess again! ")
+    guess = input()
+    if toss==guess:
+        print("You got it")
+    else:
+        print("Nope, you did not get this")
